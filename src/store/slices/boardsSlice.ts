@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { GrDashboard } from "react-icons/gr";
 import { IBoard, IList, ITask } from "../../types/index";
 
 type TBoardsState = {

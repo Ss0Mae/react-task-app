@@ -1,4 +1,4 @@
-import { useTypedDispatch, useTypedSelector } from "./redux"
+import { useTypedSelector } from "./redux"
 
 export function useAuth() {
     

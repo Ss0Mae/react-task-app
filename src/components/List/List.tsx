@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import  { FC } from 'react'
 import { Droppable } from 'react-beautiful-dnd'
 import {GrSubtract} from 'react-icons/gr'
 import { v4 } from 'uuid'
@@ -36,6 +36,7 @@ const List : FC<TListProps>= ({
   const handleTaskChange = (
     boardId: string,
     listId: string,
+    // @ts-ignore
     taskId: string,
     task :ITask
   ) => {

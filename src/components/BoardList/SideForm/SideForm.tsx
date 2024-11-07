@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC, useRef } from 'react'
+import React, { ChangeEvent, FC } from 'react'
 import { useState } from 'react'
 import { FiCheck } from 'react-icons/fi'
 import { v4 as uuidv4 } from 'uuid'
@@ -48,7 +48,7 @@ const SideForm :FC<TSideFormProps>= ({
   return (
     <div className = {sideForm}>
       <input
-        //ref = {inputRef}
+        ref = {inputRef}
         autoFocus
         className = {input}
         type='text'
